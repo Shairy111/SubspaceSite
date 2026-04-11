@@ -1,14 +1,26 @@
 # Subspace landing page media
 
-Drop public landing page media in this folder when ready.
+Public landing page media lives in this folder.
 
-Recommended filenames:
+Currently wired into `website/index.html`:
 
-- `subspace-demo.mp4` - 15 to 30 second product walkthrough video.
-- `subspace-demo-poster.png` - static poster frame for the video.
-- `subspace-dashboard.png` - dashboard screenshot.
-- `subspace-subscriptions.png` - all subscriptions screenshot.
-- `subspace-settings.png` - integrations/settings screenshot.
+- `promo-video/SubspaceDemo.mp4` - product walkthrough video.
+- `Subspace-Dashboard.png` - hero screenshot, video poster, and dashboard gallery tile.
+- `Subspace-Subscription.png` - all subscriptions gallery tile.
+- `Subspace-smart-paste.png` - Smart Paste gallery tile.
+- `Subspace-Calender.png` - calendar gallery tile.
+- `Subspace-Insights.png` - insights gallery tile.
+- `Subspace-Settings-1.png` - integrations/settings gallery tile.
+
+Additional screenshots are available for later page expansions:
+
+- `Subspace-add-subscription.png`
+- `Subspace-quick-add-menu.png`
+- `Subspace-subscription-1.png`
+- `Subspace-Settings-2.png`
+- `Subspace-Settings-3.png`
+- `Subspace-Settings-4.png`
+- `Subspace-Settings-5.png`
 
 Keep media App Store safe:
 

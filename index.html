@@ -43,45 +43,16 @@
         </div>
 
         <div class="hero-visual" aria-label="Subspace product preview">
-          <div class="mac-frame">
-            <div class="mac-toolbar">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="app-preview-grid">
-              <aside class="preview-sidebar">
-                <strong>subspace</strong>
-                <span>Dashboard</span>
-                <span>All Subscriptions</span>
-                <span>Calendar</span>
-                <span>Settings</span>
-              </aside>
-              <section class="preview-dashboard">
-                <p class="preview-kicker">Portfolio health</p>
-                <h2>7 active services</h2>
-                <div class="preview-metrics">
-                  <div>
-                    <strong>US$96</strong>
-                    <span>monthly</span>
-                  </div>
-                  <div class="warning">
-                    <strong>1</strong>
-                    <span>expired</span>
-                  </div>
-                  <div>
-                    <strong>3</strong>
-                    <span>due soon</span>
-                  </div>
-                </div>
-                <div class="preview-list">
-                  <span>Cursor Pro renews Apr 6</span>
-                  <span>ChatGPT Plus renews Apr 8</span>
-                  <span>Setapp trial ends Apr 10</span>
-                </div>
-              </section>
-            </div>
-          </div>
+          <figure class="product-shot hero-shot">
+            <img
+              src="./assets/media/Subspace-Dashboard.png"
+              alt="Subspace dashboard showing portfolio value, expired subscriptions, renewals due soon, and active subscription health."
+              width="2880"
+              height="1620"
+              decoding="async"
+            >
+            <figcaption>Dashboard health signals keep overdue renewals visible.</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -90,15 +61,22 @@
           <p class="eyebrow">Product tour</p>
           <h2 id="tour-title">Designed for the way subscriptions actually sneak up on you.</h2>
           <p class="body-copy">
-            A short product tour will sit here for launch, showing the dashboard,
-            renewal list, Smart Paste, and Pro sync in the real Mac app.
+            Watch the real macOS flow: dashboard health, renewal review,
+            Smart Paste capture, and the Apple-native surfaces that keep Subspace practical.
           </p>
         </div>
         <div class="video-slot">
-          <div class="video-placeholder">
-            <span>Product tour</span>
-            <strong>Subspace turns scattered renewals into one calm Mac workspace.</strong>
-          </div>
+          <video
+            class="tour-video"
+            controls
+            playsinline
+            preload="metadata"
+            poster="./assets/media/Subspace-Dashboard.png"
+            aria-label="Subspace product tour video"
+          >
+            <source src="./assets/media/promo-video/SubspaceDemo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </section>
 
@@ -124,15 +102,72 @@
       </section>
 
       <section class="screenshot-strip" aria-label="Subspace screenshots">
-        <div class="screenshot-tile large">
-          <span>Dashboard screenshot</span>
-        </div>
-        <div class="screenshot-tile">
-          <span>Subscriptions list</span>
-        </div>
-        <div class="screenshot-tile">
-          <span>Integrations center</span>
-        </div>
+        <figure class="screenshot-tile large">
+          <img
+            src="./assets/media/Subspace-Dashboard.png"
+            alt="Subspace dashboard with health signals for expired subscriptions, renewals due soon, and portfolio value."
+            width="2880"
+            height="1620"
+            loading="lazy"
+            decoding="async"
+          >
+          <figcaption>Dashboard</figcaption>
+        </figure>
+        <figure class="screenshot-tile">
+          <img
+            src="./assets/media/Subspace-Subscription.png"
+            alt="Subspace all subscriptions list with prices, billing cycle, renewal dates, categories, and status."
+            width="2880"
+            height="1558"
+            loading="lazy"
+            decoding="async"
+          >
+          <figcaption>All subscriptions</figcaption>
+        </figure>
+        <figure class="screenshot-tile">
+          <img
+            src="./assets/media/Subspace-smart-paste.png"
+            alt="Subspace Smart Paste modal parsing subscription text into editable fields before saving."
+            width="2880"
+            height="1558"
+            loading="lazy"
+            decoding="async"
+          >
+          <figcaption>Smart Paste</figcaption>
+        </figure>
+        <figure class="screenshot-tile">
+          <img
+            src="./assets/media/Subspace-Calender.png"
+            alt="Subspace calendar view showing renewal density across the month and upcoming billing details."
+            width="2880"
+            height="1558"
+            loading="lazy"
+            decoding="async"
+          >
+          <figcaption>Calendar</figcaption>
+        </figure>
+        <figure class="screenshot-tile">
+          <img
+            src="./assets/media/Subspace-Insights.png"
+            alt="Subspace insights view summarizing spend patterns and subscription intelligence."
+            width="2880"
+            height="1558"
+            loading="lazy"
+            decoding="async"
+          >
+          <figcaption>Insights</figcaption>
+        </figure>
+        <figure class="screenshot-tile">
+          <img
+            src="./assets/media/Subspace-Settings-1.png"
+            alt="Subspace settings and integrations center for iCloud, Calendar, Reminders, notifications, and Pro status."
+            width="2880"
+            height="1558"
+            loading="lazy"
+            decoding="async"
+          >
+          <figcaption>Integrations</figcaption>
+        </figure>
       </section>
 
       <section class="landing-section integrations-section" id="integrations" aria-labelledby="integrations-title">
