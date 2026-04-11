@@ -3,41 +3,197 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Subspace Public Pages</title>
-    <meta name="description" content="Public support and privacy pages for Subspace Subscription Tracker.">
+    <title>Subspace - Subscription intelligence for your Mac</title>
+    <meta
+      name="description"
+      content="Subspace is a local-first macOS app for tracking subscriptions, renewals, trials, and Apple-native reminders."
+    >
     <link rel="stylesheet" href="./assets/styles.css">
   </head>
-  <body>
-    <main class="site-shell">
-      <nav class="topbar" aria-label="Primary">
-        <a class="brand" href="./" aria-label="Subspace home">
-          <span class="brand-mark">S</span>
-          <span>Subspace</span>
-        </a>
-        <div class="nav-links">
-          <a href="./support/">Support</a>
-          <a href="./privacy/">Privacy</a>
-        </div>
+  <body class="landing-page">
+    <header class="landing-nav" aria-label="Primary">
+      <a class="brand" href="./" aria-label="Subspace home">
+        <span class="brand-mark">S</span>
+        <span>Subspace</span>
+      </a>
+      <nav class="nav-links" aria-label="Site">
+        <a href="#tour">Tour</a>
+        <a href="#integrations">Integrations</a>
+        <a href="./support/">Support</a>
+        <a href="./privacy/">Privacy</a>
       </nav>
+    </header>
 
-      <section class="hero">
-        <p class="eyebrow">Public pages</p>
-        <h1>Useful links for Subspace users and App Review.</h1>
-        <p class="lede">
-          Subspace is a local-first Mac app for tracking subscriptions, renewal dates,
-          trial endings, and Apple-native reminders. The full marketing site is coming
-          later; these pages are ready to support the App Store submission now.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="./support/">Open Support</a>
-          <a class="button secondary" href="./privacy/">Read Privacy Policy</a>
+    <main>
+      <section class="landing-hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Local-first macOS subscription tracker</p>
+          <h1 id="hero-title">Know what renews, before it quietly becomes spend.</h1>
+          <p class="lede">
+            Subspace gives your subscriptions a calm command center: renewals, trials,
+            overdue items, Apple-native reminders, and Pro sync when you need it.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary store-button" href="https://apps.apple.com/app/id6762020336">
+              Get it on the Mac App Store
+            </a>
+            <a class="button secondary" href="#tour">Watch the tour</a>
+          </div>
+          <p class="hero-note">Free to start. Subspace Pro unlocks unlimited tracking and Apple-native sync.</p>
+        </div>
+
+        <div class="hero-visual" aria-label="Subspace product preview">
+          <div class="mac-frame">
+            <div class="mac-toolbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="app-preview-grid">
+              <aside class="preview-sidebar">
+                <strong>subspace</strong>
+                <span>Dashboard</span>
+                <span>All Subscriptions</span>
+                <span>Calendar</span>
+                <span>Settings</span>
+              </aside>
+              <section class="preview-dashboard">
+                <p class="preview-kicker">Portfolio health</p>
+                <h2>7 active services</h2>
+                <div class="preview-metrics">
+                  <div>
+                    <strong>US$96</strong>
+                    <span>monthly</span>
+                  </div>
+                  <div class="warning">
+                    <strong>1</strong>
+                    <span>expired</span>
+                  </div>
+                  <div>
+                    <strong>3</strong>
+                    <span>due soon</span>
+                  </div>
+                </div>
+                <div class="preview-list">
+                  <span>Cursor Pro renews Apr 6</span>
+                  <span>ChatGPT Plus renews Apr 8</span>
+                  <span>Setapp trial ends Apr 10</span>
+                </div>
+              </section>
+            </div>
+          </div>
         </div>
       </section>
 
-      <footer class="footer">
-        <span>Subspace Subscription Tracker</span>
-        <span>Last updated April 11, 2026</span>
-      </footer>
+      <section class="landing-section media-section" id="tour" aria-labelledby="tour-title">
+        <div>
+          <p class="eyebrow">Product tour</p>
+          <h2 id="tour-title">Designed for the way subscriptions actually sneak up on you.</h2>
+          <p class="body-copy">
+            A short product tour will sit here for launch, showing the dashboard,
+            renewal list, Smart Paste, and Pro sync in the real Mac app.
+          </p>
+        </div>
+        <div class="video-slot">
+          <div class="video-placeholder">
+            <span>Product tour</span>
+            <strong>Subspace turns scattered renewals into one calm Mac workspace.</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="landing-section split-section" aria-labelledby="promise-title">
+        <div>
+          <p class="eyebrow">Why Subspace</p>
+          <h2 id="promise-title">A native utility, not another finance dashboard.</h2>
+        </div>
+        <div class="promise-list">
+          <article>
+            <h3>Renewal clarity</h3>
+            <p>See upcoming renewals, overdue subscriptions, and trial endings without spreadsheet drift.</p>
+          </article>
+          <article>
+            <h3>Local-first trust</h3>
+            <p>Your subscription library starts on your Mac. Optional Apple services stay user-controlled.</p>
+          </article>
+          <article>
+            <h3>Fast capture</h3>
+            <p>Smart Paste turns billing text into editable subscription drafts with deterministic parsing.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="screenshot-strip" aria-label="Subspace screenshots">
+        <div class="screenshot-tile large">
+          <span>Dashboard screenshot</span>
+        </div>
+        <div class="screenshot-tile">
+          <span>Subscriptions list</span>
+        </div>
+        <div class="screenshot-tile">
+          <span>Integrations center</span>
+        </div>
+      </section>
+
+      <section class="landing-section integrations-section" id="integrations" aria-labelledby="integrations-title">
+        <div>
+          <p class="eyebrow">Apple-native</p>
+          <h2 id="integrations-title">Fits into the Mac surfaces you already use.</h2>
+        </div>
+        <dl class="integration-list">
+          <div>
+            <dt>iCloud sync</dt>
+            <dd>Mirror the Subspace library across Apple devices with CloudKit when Pro is active.</dd>
+          </div>
+          <div>
+            <dt>Apple Calendar</dt>
+            <dd>Project renewal events into a dedicated calendar so upcoming charges stay visible.</dd>
+          </div>
+          <div>
+            <dt>Apple Reminders</dt>
+            <dd>Create trial review and renewal tasks without turning Reminders into the source of truth.</dd>
+          </div>
+          <div>
+            <dt>Local notifications</dt>
+            <dd>Get timely renewal and trial alerts from macOS without third-party tracking SDKs.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="landing-section pricing-section" aria-labelledby="pricing-title">
+        <div>
+          <p class="eyebrow">Pricing</p>
+          <h2 id="pricing-title">Free for small libraries. Pro when Subspace becomes daily infrastructure.</h2>
+        </div>
+        <div class="pricing-grid">
+          <article>
+            <h3>Free</h3>
+            <strong>$0</strong>
+            <p>Track up to 5 subscriptions with the core local-first library.</p>
+          </article>
+          <article class="pro-plan">
+            <h3>Subspace Pro</h3>
+            <strong>$4.99/mo or $39.99/yr</strong>
+            <p>Unlock unlimited subscriptions, iCloud sync, Calendar sync, and Reminders sync.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="final-cta" aria-labelledby="final-title">
+        <p class="eyebrow">Ready for launch</p>
+        <h2 id="final-title">Give every renewal a place to live.</h2>
+        <a class="button primary store-button" href="https://apps.apple.com/app/id6762020336">
+          Get it on the Mac App Store
+        </a>
+      </section>
     </main>
+
+    <footer class="footer landing-footer">
+      <span>Subspace Subscription Tracker</span>
+      <div class="footer-links">
+        <a href="./support/">Support</a>
+        <a href="./privacy/">Privacy Policy</a>
+      </div>
+    </footer>
   </body>
 </html>
