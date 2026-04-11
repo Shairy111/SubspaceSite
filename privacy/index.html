@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Subspace Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for Subspace Subscription Tracker, a local-first macOS app.">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <main class="site-shell">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="../" aria-label="Subspace home">
+          <span class="brand-mark">S</span>
+          <span>Subspace</span>
+        </a>
+        <div class="nav-links">
+          <a href="../support/">Support</a>
+          <a href="./" aria-current="page">Privacy</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <p class="eyebrow">Privacy Policy</p>
+        <h1>Subspace is built around a local-first subscription library.</h1>
+        <p class="lede">
+          Subspace Subscription Tracker helps you manage subscription records on your Mac.
+          This policy explains what the app stores locally, what optional Apple services can
+          receive data when you enable them, and how StoreKit subscriptions are handled.
+        </p>
+        <div class="meta-row">
+          <span>Effective date: April 11, 2026</span>
+          <span>Applies to the macOS app</span>
+        </div>
+      </section>
+
+      <section class="section-grid" aria-label="Privacy summary">
+        <article class="panel">
+          <p class="kicker">Short version</p>
+          <h2>No ads. No third-party tracking SDKs.</h2>
+          <p class="body-copy">
+            Subspace does not include third-party advertising SDKs, third-party analytics SDKs,
+            or cross-app tracking SDKs. The app does not require a Subspace account or developer-run
+            login backend for your subscription library.
+          </p>
+        </article>
+
+        <article class="panel">
+          <p class="kicker">Source of truth</p>
+          <h2>Your library starts on your Mac.</h2>
+          <p class="body-copy">
+            Subscription records that you create in Subspace are stored locally by the app.
+            Optional Apple integrations can project or sync selected data through Apple services
+            only when you enable those features.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <p class="kicker">Data handled by Subspace</p>
+        <h2>Subscription records</h2>
+        <p class="body-copy">
+          Subspace can store information you enter, paste, import, or edit, including subscription
+          names, providers, prices, currencies, billing cycles, renewal dates, categories, statuses,
+          notes, source URLs, and integration metadata needed to keep Apple Calendar or Reminders
+          projections working.
+        </p>
+        <dl class="detail-list">
+          <div>
+            <dt>Local app storage</dt>
+            <dd>
+              Subspace stores your subscription library locally on your Mac. The app is designed so
+              this local library remains the source of truth.
+            </dd>
+          </div>
+          <div>
+            <dt>Smart Paste and imports</dt>
+            <dd>
+              Smart Paste uses deterministic parsing in the app to turn pasted subscription text into
+              editable drafts. Subspace does not send pasted text to an external AI service.
+            </dd>
+          </div>
+          <div>
+            <dt>Exports</dt>
+            <dd>
+              If you export your library, the exported file is controlled by you and stored wherever
+              you choose to save it.
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="panel">
+        <p class="kicker">Optional Apple services</p>
+        <h2>Integrations run only when you enable them.</h2>
+        <dl class="detail-list">
+          <div>
+            <dt>iCloud and CloudKit sync</dt>
+            <dd>
+              If you enable iCloud sync, Subspace may store and sync your subscription library using
+              Apple's CloudKit infrastructure associated with your Apple Account. This is optional and
+              intended to mirror the Subspace library across your Apple devices.
+            </dd>
+          </div>
+          <div>
+            <dt>Apple Calendar sync</dt>
+            <dd>
+              If you enable Apple Calendar sync, Subspace may create, update, or remove renewal events
+              in Apple Calendar. Calendar entries are projections of your Subspace records; Calendar is
+              not treated as the primary billing database.
+            </dd>
+          </div>
+          <div>
+            <dt>Apple Reminders sync</dt>
+            <dd>
+              If you enable Apple Reminders sync, Subspace may create, update, or remove reminder items
+              in Apple Reminders for renewals and trial endings. Reminders are action surfaces, not the
+              source of truth for your subscription records.
+            </dd>
+          </div>
+          <div>
+            <dt>Local notifications</dt>
+            <dd>
+              If you enable notifications, Subspace may schedule local macOS notifications for renewal
+              and trial reminders. Notification permissions are managed by macOS.
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="panel">
+        <p class="kicker">Purchases</p>
+        <h2>Subspace Pro is handled through Apple StoreKit.</h2>
+        <p class="body-copy">
+          Subspace uses Apple's StoreKit APIs to offer, purchase, restore, and check access to Subspace
+          Pro subscriptions. Apple processes payments, renewals, refunds, and subscription management.
+          Subspace does not receive or process your credit card number.
+        </p>
+      </section>
+
+      <section class="section-grid" aria-label="Controls and contact">
+        <article class="panel">
+          <p class="kicker">Your controls</p>
+          <h2>How to change or remove data</h2>
+          <ul class="plain-list">
+            <li>Edit or delete subscription records inside Subspace.</li>
+            <li>Turn off iCloud, Calendar, Reminders, or notifications from Subspace settings.</li>
+            <li>Manage Apple Calendar and Apple Reminders entries through Apple's apps and settings.</li>
+            <li>Manage or cancel Subspace Pro through Apple's subscription management surfaces.</li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <p class="kicker">Support</p>
+          <h2>Questions or requests</h2>
+          <p class="body-copy">
+            For support, privacy questions, or data-related requests, use the public support page:
+            <a href="../support/">Subspace Support</a>.
+          </p>
+          <p class="body-copy">
+            If Subspace's data practices change, this policy will be updated to describe the new behavior.
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <span>Subspace Subscription Tracker</span>
+        <div class="footer-links">
+          <a href="../support/">Support</a>
+          <a href="./">Privacy Policy</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

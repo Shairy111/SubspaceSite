@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Subspace Support</title>
+    <meta name="description" content="Support page for Subspace Subscription Tracker on macOS.">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <main class="site-shell">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="../" aria-label="Subspace home">
+          <span class="brand-mark">S</span>
+          <span>Subspace</span>
+        </a>
+        <div class="nav-links">
+          <a href="./" aria-current="page">Support</a>
+          <a href="../privacy/">Privacy</a>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <p class="eyebrow">Support</p>
+        <h1>Help for Subspace Subscription Tracker.</h1>
+        <p class="lede">
+          Subspace is a local-first macOS app for tracking subscriptions, renewals,
+          trials, and Apple-native reminders. This page covers practical help for setup,
+          Apple integrations, purchases, and App Store review support.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/Shairy111/Subspace/issues">Open a Support Request</a>
+          <a class="button secondary" href="../privacy/">Read Privacy Policy</a>
+        </div>
+      </section>
+
+      <section class="section-grid" aria-label="Support overview">
+        <article class="panel">
+          <p class="kicker">Getting help</p>
+          <h2>Report an issue or ask a question.</h2>
+          <p class="body-copy">
+            The fastest support path is to open a GitHub issue with your macOS version,
+            Subspace app version, and a short description of what happened.
+          </p>
+          <p class="body-copy">
+            Please avoid sharing private billing information, full receipts, or sensitive account
+            details in public support requests.
+          </p>
+        </article>
+
+        <article class="panel">
+          <p class="kicker">Before reporting</p>
+          <h2>Helpful details to include</h2>
+          <ul class="plain-list">
+            <li>The Subspace version shown in the app or App Store.</li>
+            <li>Your macOS version and whether you are using iCloud, Calendar, or Reminders sync.</li>
+            <li>What you expected to happen and what actually happened.</li>
+            <li>Any non-sensitive error text shown by the app.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel">
+        <p class="kicker">Common setup help</p>
+        <h2>Apple integrations</h2>
+        <dl class="detail-list">
+          <div>
+            <dt>iCloud sync</dt>
+            <dd>
+              iCloud sync requires a signed-in Apple Account with iCloud available on the Mac.
+              If sync is unavailable, check macOS iCloud settings, make sure Subspace has the
+              required iCloud capability in the App Store build, and try the app's repair or resync
+              action when available.
+            </dd>
+          </div>
+          <div>
+            <dt>Apple Calendar sync</dt>
+            <dd>
+              Calendar sync is optional. If permission is denied or blocked, open macOS System
+              Settings and allow Calendar access for Subspace, then return to Subspace settings
+              and retry sync.
+            </dd>
+          </div>
+          <div>
+            <dt>Apple Reminders sync</dt>
+            <dd>
+              Reminders sync is optional. If permission is denied or blocked, open macOS System
+              Settings and allow Reminders access for Subspace, then retry from Subspace settings.
+            </dd>
+          </div>
+          <div>
+            <dt>Local notifications</dt>
+            <dd>
+              Renewal and trial alerts use local macOS notifications. If notifications do not appear,
+              check macOS notification settings for Subspace and confirm notification reminders are
+              enabled in the app.
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="panel">
+        <p class="kicker">Billing</p>
+        <h2>Subspace Pro purchases and refunds</h2>
+        <p class="body-copy">
+          Subspace Pro subscriptions are purchased and managed through Apple's App Store and StoreKit.
+          If Pro access does not appear after purchase, use Restore Purchases in Subspace and make sure
+          you are signed into the Apple Account that made the purchase.
+        </p>
+        <p class="body-copy">
+          Apple handles payment processing, subscription management, cancellations, and refund requests.
+          To manage or cancel a subscription, use Apple's subscription management surface from macOS,
+          the App Store, or Subspace when the manage-subscription action is available.
+        </p>
+      </section>
+
+      <section class="section-grid" aria-label="Data and review">
+        <article class="panel">
+          <p class="kicker">Data model</p>
+          <h2>Subspace is local-first.</h2>
+          <p class="body-copy">
+            Your subscription library is owned by Subspace and stored locally first. Optional iCloud,
+            Calendar, Reminders, and notification features are projections or sync helpers that you
+            control from app settings.
+          </p>
+        </article>
+
+        <article class="panel">
+          <p class="kicker">App Review</p>
+          <h2>Review notes</h2>
+          <p class="body-copy">
+            Subspace does not require a developer-run account to use the core local library. Pro features
+            use Apple StoreKit subscriptions, and Apple-native integrations ask for system permissions
+            only when the user enables those features.
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <span>Subspace Subscription Tracker</span>
+        <div class="footer-links">
+          <a href="https://github.com/Shairy111/Subspace/issues">GitHub Support</a>
+          <a href="../privacy/">Privacy Policy</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
