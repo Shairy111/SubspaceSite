@@ -445,21 +445,25 @@ body.landing-page {
 
 .media-section {
   align-items: center;
+  grid-template-columns: 1fr;
+  gap: clamp(26px, 4vw, 48px);
+}
+
+.media-section > div:first-child {
+  max-width: 900px;
 }
 
 .video-slot {
   overflow: hidden;
-  min-height: 360px;
   border: 1px solid rgba(128, 148, 160, 0.26);
-  border-radius: 32px;
+  border-radius: clamp(24px, 3vw, 38px);
   background: #091628;
-  box-shadow: 0 32px 82px rgba(36, 52, 65, 0.16);
+  box-shadow: 0 36px 94px rgba(36, 52, 65, 0.18);
 }
 
 .tour-video {
   display: block;
   width: 100%;
-  min-height: 360px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   background: #091628;
