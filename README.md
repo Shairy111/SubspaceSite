@@ -25,6 +25,10 @@ The root link hub is available at:
 
 - Website hub: `https://shairy111.github.io/SubspaceSite/`
 
+Use this generic App Store URL for public download links:
+
+- App Store: `https://apps.apple.com/app/id6762020336`
+
 If the final domain changes later, update App Store Connect to point at the deployed equivalents.
 
 ## Deployment
